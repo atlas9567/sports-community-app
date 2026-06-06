@@ -14,3 +14,14 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## 自动化测试
+
+测试需要 Node.js 18 或更高版本，并使用本机 Google Chrome。
+
+```bash
+npm run test:e2e
+npm run test:e2e:report
+```
+
+测试覆盖底部导航、赛事筛选、比赛中心看台切换、帖子点赞、球队关注和移动端水平溢出检查。
